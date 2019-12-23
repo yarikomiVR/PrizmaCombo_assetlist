@@ -108,6 +108,10 @@ li {
   letter-spacing: .1em;
 }
 
+#header .logo-img {
+  width: 33%;
+}
+
 #header .logo-desc {
   font-family: "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "游明朝体", "Yu Mincho", YuMincho, "MS P明朝", "MS PMincho", serif;
   display: block;
@@ -117,7 +121,19 @@ li {
   margin-top: 10px;
 
 }
-
+/*--------------------------------
+　スライドショー
+---------------------------------*/
+#slideshow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
 /*--------------------------------
 　グローバルナビ
 ---------------------------------*/
@@ -185,7 +201,7 @@ li {
   font-size: 36px;
   line-height: 1;
   margin-bottom: 10px;
-  color: #f39ac7;
+  color: #ec9a00;
 }
 
 .section .section-desc {

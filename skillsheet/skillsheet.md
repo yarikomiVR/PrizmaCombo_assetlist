@@ -127,7 +127,7 @@ https://qiita.com/yarikomivr_com
 - 公募型公共空間デザインの原案作成
   - 都市開発のデザインコンペに応募
   - CG制作のスキルを生かし、アイデアのイメージを具体的な形にして発表
-  - 制作物は[こちら]()
+  - 制作物は[こちら](https://github.com/yarikomiVR/PrizmaCombo_works/blob/master/skillsheet/Amore_final.pdf)
 - PvP弾幕シューティングゲーム
   - 当時のUnityで新機能だったEntityを使ったシューティングゲームの開発
   - Entityには当たり判定が未実装だったため、物理エンジンを自作

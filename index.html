@@ -25,6 +25,11 @@
     jQuery(document).ready(function($){
     $('.bxslider').bxSlider({
     auto: true,
+    minSlides: 3,
+    maxSlides: 3,
+    moveSlides: 1,
+    slideWidth: 640,
+    slideMargin: 10
     });
     });
   </script>
@@ -33,15 +38,21 @@
 <body>
   <div id="wrapper">
     <header id="header">
-      <h1 class="logo">
-        <span class="logo-name">PrizmaCombo</span>
-        <span class="logo-title">WORKS</span>
-        <span class="logo-desc">Game Studio in Japan since 2018</span>
-      </h1>
+      <span class="logo-img">
+        <img src="img/logo/LOGO_PrizmaCombo2.png" alt="">
+      </span>
     </header>
-      <div class="bxslider">
-        <img src="img/slideshow/slide1.jpg" width="959" height="408" alt="">
-        <img src="img/slideshow/slide2.jpg" width="959" height="408" alt="">
+      <div id ="slideshow" class="bxslider">
+        <img src="img/slideshow/slide (1).jpg" width="959" height="408" alt="">
+        <img src="img/slideshow/slide (2).jpg" width="959" height="408" alt="">
+        <img src="img/slideshow/slide (3).jpg" width="959" height="408" alt="">
+        <img src="img/slideshow/slide (4).jpg" width="959" height="408" alt="">
+        <img src="img/slideshow/slide (5).jpg" width="959" height="408" alt="">
+        <img src="img/slideshow/slide (6).jpg" width="959" height="408" alt="">
+        <img src="img/slideshow/slide (7).jpg" width="959" height="408" alt="">
+        <img src="img/slideshow/slide (8).jpg" width="959" height="408" alt="">
+        <img src="img/slideshow/slide (9).jpg" width="959" height="408" alt="">
+        <img src="img/slideshow/slide (10).jpg" width="959" height="408" alt="">
       </div>
     <nav id="gnav">
       <ul>
@@ -93,6 +104,23 @@
                 </p>
               </div>
             </div>
+            <div class="two-column-wrapper">
+              <div class="two-column-image">
+                <img src="img/games/docking.jpg" alt="">
+              </div>
+              <div class="two-column-desc">
+                <p class="text">
+                  Title：Docking Operation
+                  <br> Platform : Unityroom
+                  <br> Release : 16, March, 2019
+                  <br> URL：
+                  <a href="https://unityroom.com/games/tada_hitasurani_suzi">https://unityroom.com/games/dockingoperation</a><br>
+                  <br> Descripsion：
+                  <br>ロボットを合体させるだけの簡単なお仕事。
+                </p>
+              </div>
+            </div>
+
         </div>
       </section>
       <section class="section" id="works">
@@ -156,7 +184,16 @@
                 <p class="card-caption-url"><a class="url-link" href="https://assetstore.unity.com/packages/slug/158127" target="_blank">Link</a></p>
               </figcaption>
             </figure>
-      
+            <figure class="card">
+              <a href="img/assets/details/SimpleSkeleton_SNS.jpg" data-size="1200x630" class="card-image">
+                <img src="img/assets/thumb/SimpleSkeleton.jpg" alt="" />
+              </a>
+              <figcaption class="card-caption">
+                <p class="card-caption-title">Simple Skeleton</p>
+                <p class="card-caption-info">3D character</p>
+                <p class="card-caption-url"><a class="url-link" href="https://assetstore.unity.com/packages/slug/158811" target="_blank">Link</a></p>
+              </figcaption>
+            </figure>
 
           </div>
         </div>
@@ -176,7 +213,7 @@
             </div>
             <div class="two-column-desc">
               <p class="text">
-                Yu Noda
+                Yu Noda<br>
                 The representative of PrizmaCombo. The detail is <a class="url-link" href="https://github.com/yarikomiVR/PrizmaCombo_works/blob/master/skillsheet/skillsheet.md" target="_blank">here</a>.
               </p>
             </div>
